@@ -32,7 +32,7 @@ export interface SiteConfig {
 }
 
 export const SITE: SiteConfig = {
-  company: 'Montgomery County Land Clearing', // PLACEHOLDER — swap for the real company name
+  company: 'Conroe Land Clearing', // brand matches domain conroelandclearing.com
   tagline: 'Land Clearing & Forestry Mulching',
   trade: 'land clearing and forestry mulching',
   phone: '+19365550164', // PLACEHOLDER — 936 is Conroe / Montgomery County; swap for the real number
