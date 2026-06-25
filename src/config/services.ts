@@ -196,7 +196,7 @@ export const SERVICES: Service[] = [
     sections: [
       {
         h: 'Trees that need to come out',
-        body: 'Not every tree is worth keeping. Dead and dying trees, storm-damaged and leaning trees, and trees crowding a homesite, driveway, fence line, or septic field all need to come out — for safety as much as for the clearing. We drop them safely, including the tight spots near structures, and clear the wood. On a full land-clearing job we take out the trees that are in the way of the build while leaving the ones you want to keep for shade and value.',
+        body: 'Not every tree is worth keeping. Dead and dying trees, storm-damaged and leaning trees, and trees crowding a homesite, driveway, fence line, or build pad all need to come out — for safety as much as for the clearing. We drop them safely, including the tight spots near structures, and clear the wood. On a full land-clearing job we take out the trees that are in the way of the build while leaving the ones you want to keep for shade and value.',
       },
       {
         h: 'Why the stump has to go too',

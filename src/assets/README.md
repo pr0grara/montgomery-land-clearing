@@ -15,11 +15,11 @@ resizes/compresses them at build; only the optimized variants ship.
 
 ## ⚠️ These are PLACEHOLDERS
 
-The current images are **free-licensed septic photos pulled from Wikimedia Commons** so the build
-resolves and the site looks like a real septic business, not broken. They are generic stock — pump
-trucks, open tanks, and a drain-field trench, none of them shot in Western NC. **Replace them with
-real job photos before launch** — real local proof (your actual truck, a tank being pumped on a
-mountain lot, your crew on a Buncombe County property) is load-bearing for this kind of site
+The current images are **free-licensed land clearing photos pulled from Wikimedia Commons** so the
+build resolves and the site looks like a real land clearing business, not broken. They are generic
+stock — forestry mulchers, cleared lots, and brush work, none of them shot in Montgomery County.
+**Replace them with real job photos before launch** — real local proof (your actual machine, a lot
+being mulched, your crew on a Conroe-area property) is load-bearing for this kind of site
 (see SPEC §2). Keep the same filenames (or update the `import`s in `src/config/services.ts`) so
 nothing breaks.
 
@@ -33,13 +33,14 @@ nothing breaks.
 | File | Used by |
 |---|---|
 | `hero/hero.jpg` | site-wide default hero (`src/lib/images.ts` → `defaultHero`) + source for `public/og.jpg` |
-| `services/septic-services.jpg` | `septic-services` service (hub catch-all) |
-| `services/septic-tank-pumping.jpg` | `septic-tank-pumping` service |
-| `services/septic-tank-cleaning.jpg` | `septic-tank-cleaning` service |
-| `services/septic-system-repair.jpg` | `septic-system-repair` service |
-| `services/septic-inspections.jpg` | `septic-inspections` service |
-| `services/drain-field-repair.jpg` | `drain-field-repair` service |
-| `services/emergency-septic-service.jpg` | `emergency-septic-service` service (emergency) |
+| `services/land-clearing-services.jpg` | `land-clearing-services` service (hub catch-all) |
+| `services/forestry-mulching.jpg` | `forestry-mulching` service |
+| `services/brush-removal.jpg` | `brush-removal` service |
+| `services/tree-stump-removal.jpg` | `tree-stump-removal` service |
+| `services/lot-clearing.jpg` | `lot-clearing` service |
+| `services/right-of-way-clearing.jpg` | `right-of-way-clearing` service |
+| `services/underbrush-clearing.jpg` | `underbrush-clearing` service |
+| `services/grubbing-site-prep.jpg` | `grubbing-site-prep` service |
 
 Service photos are imported at the top of `src/config/services.ts`. Per-city overrides go in
 `city.serviceImages` / `city.heroImage` in `src/config/cities.ts`.
