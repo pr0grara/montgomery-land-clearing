@@ -37,9 +37,9 @@ export const SITE: SiteConfig = {
   trade: 'land clearing and forestry mulching',
   phone: '+19365550164', // PLACEHOLDER — 936 is Conroe / Montgomery County; swap for the real number
   phoneDisplay: '(936) 555-0164', // PLACEHOLDER
-  email: 'office@montgomerylandclearing.com', // PLACEHOLDER local-part — confirm the real inbox
+  email: 'office@conroelandclearing.com', // confirm the real inbox exists
   region: 'Montgomery County',
-  url: 'https://montgomerylandclearing.com', // PLACEHOLDER real domain — keep in sync with astro.config.mjs
+  url: 'https://conroelandclearing.com', // live domain — keep in sync with astro.config.mjs
   // Call-only for now: empty endpoint disables form submission and shows an on-page
   // "we'll call you back" acknowledgement without sending anything. Wire a backend later
   // (Web3Forms endpoint+key, Formspree endpoint, or a Worker URL) — see SPEC §8.
