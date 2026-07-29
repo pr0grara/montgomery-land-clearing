@@ -314,7 +314,7 @@ export const SERVICES: Service[] = [
   },
   {
     slug: 'underbrush-clearing',
-    name: 'Underbrush Clearing',
+    name: 'Selective Underbrush Clearing',
     short: 'Underbrush',
     blurb: 'Clear the tangled understory — yaupon, briars, and scrub — while keeping your mature trees standing.',
     description:
