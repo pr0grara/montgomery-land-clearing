@@ -37,8 +37,8 @@ export const SITE: SiteConfig = {
   company: 'Conroe Land Clearing', // brand matches domain conroelandclearing.com
   tagline: 'Land Clearing & Forestry Mulching',
   trade: 'land clearing and forestry mulching',
-  phone: '+19365550164', // PLACEHOLDER — 936 is Conroe / Montgomery County; swap for the real number
-  phoneDisplay: '(936) 555-0164', // PLACEHOLDER
+  phone: '+19362874248', // Twilio tracking number (Conroe/Central TX) — forwards to Ara, logs to /admin/leads
+  phoneDisplay: '(936) 287-4248',
   email: 'office@conroelandclearing.com', // confirm the real inbox exists
   region: 'Montgomery County',
   url: 'https://conroelandclearing.com', // live domain — keep in sync with astro.config.mjs
