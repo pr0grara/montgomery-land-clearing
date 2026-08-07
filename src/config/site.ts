@@ -40,7 +40,7 @@ export const SITE: SiteConfig = {
   phone: '+19362874248', // Twilio tracking number (Conroe/Central TX) — forwards to Ara, logs to /admin/leads
   phoneDisplay: '(936) 287-4248',
   email: 'office@conroelandclearing.com', // confirm the real inbox exists
-  region: 'Montgomery County',
+  region: 'Conroe', // primary geo anchor — matches domain (conroelandclearing.com) + real demand ("land clearing conroe"); interpolated into titles/H1 as "Conroe Land Clearing…". Montgomery County kept in body copy (Conroe is its seat).
   url: 'https://conroelandclearing.com', // live domain — keep in sync with astro.config.mjs
   // Call-only for now: empty endpoint disables form submission and shows an on-page
   // "we'll call you back" acknowledgement without sending anything. Wire a backend later
